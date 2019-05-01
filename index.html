@@ -3,9 +3,10 @@
     <head>
         <title>Homework</title>
         <style>
-            nav{background-color:#f0f0f0;height:50px;}
-            a{text-decoration:none;display: block;color: #000;padding: 8px 16px;float:left;height:34px;}
-            a:hover {background-color: #ce3a3a;color: white;}
+            /*nav{background-color:#f0f0f0;height:50px;}
+            nav a{text-decoration:none;display: block;color: #000;padding: 8px 16px;float:left;height:34px;}
+            nav a:hover {background-color: #ce3a3a;color: white;}*/
+            .search{float:right;}
         </style>
     </head>
     
@@ -16,15 +17,42 @@
             <a href="#">Link</a>
             <a href="#">Disable</a>
             <a href="#">Dropdown</a>
-            
-            <form action="/action_page.php">
+            <div class="search">
+            <form action="#">
                 <input type="text" placeholder="Search.." name="search">
                 <button type="submit">Submit</button>
             </form>
+            </div>
         </nav>
         <div class="firstBlock">
-        <h1>Hello, World!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <button><a href="#">Learn more>></a></button>
+            <h1>Hello, World!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <button>Learn more>></button>
+            
+        </div>
+        <div class="secondBlock">
+            <table>
+                <tr>
+                    <th>Heading</th>
+                    <th>Heading</th>
+                    <th>Heading</th>
+                </tr>
+                    <td>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button>View details>></button>
+                    </td>
+                    <td>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button>View details>></button>
+                    </td>
+                    <td>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button>View details>></button>
+                    </td>
+            </table>
+            <hr>
+        <div class="footer">
+                <p>Suren Konathala. Built with <a href="#">Bootstrap</a></p>
+        </div>
     </body>
 </html>
